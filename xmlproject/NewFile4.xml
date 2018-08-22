@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<customerdata xsi:noNamespaceSchemaLocation="NewXMLSchema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<customer customerid="abc">
+	<first-name>vipin</first-name>
+	<last-name>sahu</last-name>
+	<contactinfo>
+		<residence>
+			<address>302 e</address>
+			<phone>8989898</phone>
+		</residence>
+	</contactinfo>
+</customer>
+
+</customerdata>
+

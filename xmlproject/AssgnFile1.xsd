@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs='http://www.w3.org/2001/XMLSchema'>
+
+<xs:element name="studentdata">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="student" minOccurs="1" maxOccurs="1" />
+				
+			</xs:sequence>
+			
+		</xs:complexType>
+	</xs:element>
+	
+	
+<xs:element name="student">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="id" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="name" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="contact-info" minOccurs="1" maxOccurs="1" />
+				
+				<xs:element ref="address" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="academic-info" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="hobbies" minOccurs="1" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name="id">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="name">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	
+	<xs:element name="contact-info">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="email" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="fax" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="mobile" minOccurs="1" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	
+	<xs:element name="email">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="fax">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="mobile">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	
+	
+	<xs:element name="address">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="local" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="permanent" minOccurs="1" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:element name="local">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="hostel-name" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="caretaker-name" minOccurs="1" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+
+
+	
+	<xs:element name="hostel-name">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="caretaker-name">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	
+
+	
+
+	<xs:element name="permanent">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="state" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="city" minOccurs="1" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	
+	<xs:element name="state">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="city">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	
+	
+	<xs:element name="academic-info">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element ref="stream" minOccurs="1" maxOccurs="1" />
+				<xs:element ref="semester" minOccurs="1" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	
+	<xs:element name="stream">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	<xs:element name="semester">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	
+	
+	<xs:element name="hobbies">
+		<xs:simpleType>
+			<xs:restriction base="xs:string">
+			</xs:restriction>
+		</xs:simpleType>
+	</xs:element>
+	
+	
+</xs:schema>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE student [
+<!ELEMENT student(name,marks,course+,location)>
+<!ELEMENT name(#PCDATA)>
+<!ELEMENT marks(#PCDATA)>
+<!ELEMENT course(#PCDATA)>
+<!ELEMENT location(#PCDATA)>
+<!ATTLIST course credit CDATA #REQUIRED>
+<!ATTLIST location region (north|south|east|west) #REQUIRED>
+]>
+
+<student>
+	<name>vipin</name>
+	<marks>80</marks>
+	<course credit="3">Java</course>
+	<location region="north">Noida</location>
+	
+</student>

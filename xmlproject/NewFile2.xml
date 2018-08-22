@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE users SYSTEM "NewFile2.dtd">
+<!-- 
+<!DOCTYPE users [
+<!ELEMENT user (user-name,password,project,location?)>
+<!ELEMENT user-name (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT project (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST user role CDATA #REQUIRED>
+<!ATTLIST project projectHead CDATA #IMPLIED>
+]>
+-->
+<users>
+	<user role="developer">
+		<user-name></user-name>
+		<password></password>
+		<project projectHead="Mr. ABC"></project>
+		<location>Banglore</location>
+	</user>
+	<user role="tester">
+		<user-name>vipin</user-name>
+		<password></password>
+		<project>NCR</project>
+		<location>Banglore</location>
+	</user>
+</users>

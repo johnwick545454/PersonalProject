@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT user (user-name,password,project,location?)>
+<!ELEMENT user-name (#PCDATA)>
+<!ELEMENT password (#PCDATA)>
+<!ELEMENT project (#PCDATA)>
+<!ELEMENT location (#PCDATA)>
+<!ATTLIST user role CDATA #REQUIRED>
+<!ATTLIST project projectHead CDATA #IMPLIED>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentdata xsi:noNamespaceSchemaLocation="AssgnFile1.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
+<student>
+	<id></id>
+	<name></name>
+	<contact-info>
+		<email></email>
+		<fax></fax>
+		<mobile></mobile>
+	</contact-info>
+	<address>
+		<local>
+			<hostel-name></hostel-name>
+			<caretaker-name></caretaker-name>
+		</local>
+		<permanent>
+			<state></state>
+			<city></city>
+		</permanent>
+	</address>
+	<academic-info>
+		<stream></stream>
+		<semester></semester>
+	</academic-info>
+	<hobbies></hobbies>
+</student>
+
+</studentdata>
